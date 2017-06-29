@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>jQuery T.C. no kontrol</title>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="./jstcno.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      jQuery("#TcNo").jstcno({
+        gosterge: '#Hata'
+      });
+    });
+  </script>
+</head>
+<body>
+<input value="" id="TcNo">
+<div id="Hata"></div>
+</body>
+</html>
